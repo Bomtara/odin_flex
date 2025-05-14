@@ -1,16 +1,19 @@
-body {
-    font-family: roboto;
+* {
+    font-family: 'roboto', 'Times New Roman', Times, serif;
+    padding : 0;
+    margin: 0;
 }
 
 .container {
-    font-family: roboto;
-    height: 140px;
-    padding: 16px;
     background: #1F2937;
     display: flex;
-    align-items: top;
-    gap: 8px;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top:20px;
+    
 }
 
 ul {
@@ -21,19 +24,29 @@ ul {
 a {
     font-size: 22px;
     color: white;
-    background: #1F2937;
+
     padding: 8px;
     /* this removes the line under the links */
     text-decoration: none;
   }
 
 .item-1 {
-
-    margin-right: auto;
+    font-weight: bold;
+    justify-content: left;
+    text-align: center;
+    padding: left 20px;
+    font-size: xx-small;
 }
 .item-2 {
 
-    margin-right: 20px;
+    justify-content: right;
+    text-align: center;
+    font-size:x-small;
+}
+
+.item-3{
+    color: white;
+    font-size: 20px;
 }
 
 .push-right {
